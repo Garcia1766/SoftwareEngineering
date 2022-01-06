@@ -1,0 +1,16 @@
+server:
+  port: 443
+  ssl:
+    key-store: tomcat.p12
+    key-store-type: JKS
+    key-alias: tomcat
+    key-store-password: tsinghua
+
+spring:
+  datasource:
+    username: root
+    password: juanCoding@tsinghuaCsSe
+    url: jdbc:mysql://Database.JuanCoding.secoder.local:3306/springboot?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=UTC
+
+http:
+  port: 80
